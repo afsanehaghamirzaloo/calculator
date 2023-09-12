@@ -1,0 +1,202 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.brd{
+    border: 1px solid black;
+}
+.brd1{
+    border: 1px solid red;
+}
+.grid-container{
+    
+    background-color: rgb(203,203,203);
+}
+
+/*----------------------header-------------------------*/
+.header{
+    display: flex;
+    height: 28px;
+    justify-content: space-between;
+    
+}
+.name_header{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    padding-left: 14px;
+}
+.nav_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+
+    
+}
+.btn_header{
+    display: flex;
+    width: 44px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+/*-------------------------------standard----------------------------*/
+.standard{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45.8px;
+}
+.img_standard1{
+
+height: 12px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.standard_left{
+    
+    width: 1044px;
+    height: 45.8px;
+    display: flex;
+    align-items: center;
+}
+.standard_right{
+    width: 300px;
+    display: flex;
+    height: 45.8px;
+    align-items: center;
+    
+}
+.text_standard{
+font-size: 1.1rem;
+
+
+}
+/*-------------------calculator-----------------------------------------*/
+.calculate{
+    display: flex;
+    height: 113.8px;
+    justify-content: space-between;
+}
+.output_calculator{
+ width: 1044px;
+ 
+ text-align: right;
+ 
+font-size: 4rem;
+font-weight: 600;
+
+}
+.text_calculator{
+    width: 300px; 
+    font-weight: bold; 
+}
+/*--------------------------------------empty------------------------------------*/
+.empty{
+    display: flex;
+    justify-content: space-between;
+    height: 23.25;
+}
+.empty_1{
+    height: 23.25;
+    width: 1044px;
+}
+.empty_2{
+    height: 23.25;
+    width: 300px;
+}
+/*------------------------------------memory--------------------------------------------*/
+/*.memory_btns{
+    
+    width: 20.2;
+    max-width: 400px;
+    margin-bottom: 1px;
+}
+.memory_btn{
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 20%
+}*/
+.memory_btns{
+    display: flex;
+    
+    
+    
+}
+.memory_btn{
+    display: flex;
+    width: 1044px;
+    height: 100%;
+  width: 20%;
+}
+.memory_right{
+    width: 300px;
+}
+
+/*-------------------------------------keys----------------------------------------------*/
+.keys{
+    
+    display:flex;
+    flex-wrap: wrap;
+    width: 1044px;
+    height: 440px;
+    gap: 10px;
+    
+    
+}
+.keybord{
+    display: flex;
+    
+}
+.key{
+    display: flex;
+    width: 18%;
+    height: 74px;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+    justify-content: center;
+    font-size: 20px;
+    
+    
+    
+}
+.lighter-key{
+    background-color: rgb(241, 241, 241);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.key_right{
+    width: 300px;
+    height: 440px;
+}
+
+/*--------------------------------------history_memory-----------------------------------------------*/
+.history_memory{
+    font-size: large;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
