@@ -44,11 +44,21 @@ body{
 .btn_header{
     display: flex;
     width: 44px;
-    height: 100%;
+    height: 28px;
     align-items: center;
     justify-content: center;
     
 }
+.btn_header:hover{
+    background-color:rgb(188,188,188);
+
+}
+#btn_header_red:hover{
+    background-color:rgb(216,60,60);
+    color: white;
+}
+
+
 /*-------------------------------standard----------------------------*/
 .standard{
     
@@ -76,31 +86,40 @@ padding-right: 15px;
     display: flex;
     height: 45.8px;
     align-items: center;
+    font-family: sans-serif;
+    
+  font-size: 0.8rem;
+  letter-spacing: -0.1px;
     
 }
 .text_standard{
 font-size: 1.1rem;
-
-
+font-family: sans-serif;
 }
+
 /*-------------------calculator-----------------------------------------*/
 .calculate{
     display: flex;
-    height: 113.8px;
+    height: 133px;
     justify-content: space-between;
 }
 .output_calculator{
+    display: flex;
  width: 1044px;
- 
- text-align: right;
- 
+  
 font-size: 4rem;
 font-weight: 600;
+font-family: sans-serif;
+align-items: center;
+justify-content: end;
+
+
 
 }
 .text_calculator{
     width: 300px; 
     font-weight: bold; 
+    font-family: sans-serif;
 }
 /*--------------------------------------empty------------------------------------*/
 .empty{
@@ -115,6 +134,10 @@ font-weight: 600;
 .empty_2{
     height: 23.25;
     width: 300px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    
+    font-family: sans-serif;
 }
 /*------------------------------------memory--------------------------------------------*/
 /*.memory_btns{
@@ -132,54 +155,82 @@ font-weight: 600;
 .memory_btns{
     display: flex;
     
-    
-    
+
 }
 .memory_btn{
     display: flex;
     width: 1044px;
-    height: 100%;
-  width: 20%;
+    height: 38px;
+  width: 30%;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+
+}
+.btn_hover:hover{
+    background-color:rgb(188,188,188);
 }
 .memory_right{
     width: 300px;
 }
 
 /*-------------------------------------keys----------------------------------------------*/
-.keys{
+.keybord{
     
+ display: flex;
+ 
+  
+  
+  
+    /*
     display:flex;
     flex-wrap: wrap;
     width: 1044px;
     height: 440px;
-    gap: 10px;
+    gap: 2px;*/
     
     
 }
-.keybord{
-    display: flex;
+
+.keys{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap:2px;
+    padding: 2px;
+   
+    width: 1046px;
+    height: 386px;
     
+    background-color: rgb(203, 203, 203);
+    
+    font-size: 20px;
+     
 }
 .key{
     display: flex;
-    width: 18%;
-    height: 74px;
     align-items: center;
-    background-color: rgb(228, 228, 228);
     justify-content: center;
-    font-size: 20px;
     
-    
-    
+    border-radius:2px;
+    font-style: var(--font-style);
+  background:rgb(228,228,228);
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.key:hover{
+    background-color: rgb(203,203,203);
 }
 .lighter-key{
-    background-color: rgb(241, 241, 241);
+    background: rgb(241, 241, 241);
     font-weight: 600;
     font-size: 1.5rem;
 }
 .key_right{
     width: 300px;
-    height: 440px;
+    height: 390px;
 }
 
 /*--------------------------------------history_memory-----------------------------------------------*/
