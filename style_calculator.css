@@ -1,0 +1,253 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.brd{
+    border: 1px solid black;
+}
+.brd1{
+    border: 1px solid red;
+}
+.grid-container{
+    
+    background-color: rgb(203,203,203);
+}
+
+/*----------------------header-------------------------*/
+.header{
+    display: flex;
+    height: 28px;
+    justify-content: space-between;
+    
+}
+.name_header{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    padding-left: 14px;
+}
+.nav_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+
+    
+}
+.btn_header{
+    display: flex;
+    width: 44px;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn_header:hover{
+    background-color:rgb(188,188,188);
+
+}
+#btn_header_red:hover{
+    background-color:rgb(216,60,60);
+    color: white;
+}
+
+
+/*-------------------------------standard----------------------------*/
+.standard{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+}
+.img_standard1{
+
+height: 12px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.standard_left{
+    
+    width: 1044px;
+    height: 45.8px;
+    display: flex;
+    align-items: center;
+}
+.standard_right{
+    width: 300px;
+    display: flex;
+    height: 45.8px;
+    align-items: center;
+    font-family: sans-serif;
+    
+  font-size: 0.8rem;
+  letter-spacing: -0.1px;
+    
+}
+.text_standard{
+font-size: 1.1rem;
+font-family: sans-serif;
+}
+
+/*-------------------calculator-----------------------------------------*/
+.calculate{
+    display: flex;
+    height: 20.40vh;
+    justify-content: space-between;
+}
+.output_calculator{
+    display: flex;
+ width: 1044px;
+  
+font-size: 4rem;
+font-weight: 600;
+font-family: sans-serif;
+align-items: center;
+justify-content: end;
+
+
+
+}
+.text_calculator{
+    width: 300px; 
+    font-weight: bold; 
+    font-family: sans-serif;
+}
+/*--------------------------------------empty------------------------------------*/
+.empty{
+    display: flex;
+    justify-content: space-between;
+    height: 23.25;
+}
+.empty_1{
+    height: 23.25;
+    width: 1044px;
+}
+.empty_2{
+    height: 23.25;
+    width: 300px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    
+    font-family: sans-serif;
+}
+/*------------------------------------memory--------------------------------------------*/
+/*.memory_btns{
+    
+    width: 20.2;
+    max-width: 400px;
+    margin-bottom: 1px;
+}
+.memory_btn{
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 20%
+}*/
+.memory_btns{
+    display: flex;
+    
+
+}
+.memory_btn{
+    display: flex;
+    width: 1044px;
+    height: 5.80vh;
+  width: 30%;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+
+}
+.btn_hover:hover{
+    background-color:rgb(188,188,188);
+}
+.memory_right{
+    width: 300px;
+}
+
+/*-------------------------------------keys----------------------------------------------*/
+.keybord{
+    
+ display: flex;
+ 
+  
+  
+  
+    /*
+    display:flex;
+    flex-wrap: wrap;
+    width: 1044px;
+    height: 440px;
+    gap: 2px;*/
+    
+    
+}
+
+.keys{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap:2px;
+    padding: 2px;
+   
+    width: 1046px;
+    height: 59.30vh;
+    
+    background-color: rgb(203, 203, 203);
+    
+    font-size: 20px;
+     
+}
+.key{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius:2px;
+    font-style: var(--font-style);
+  background:rgb(228,228,228);
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.key:hover{
+    background-color: rgb(203,203,203);
+}
+.lighter-key{
+    background: rgb(241, 241, 241);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.key_right{
+    width: 300px;
+    height: 59.30vh;
+}
+
+/*--------------------------------------history_memory-----------------------------------------------*/
+.history_memory{
+    font-size: large;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
